@@ -44,6 +44,7 @@ Migrating the code involves the implementation of the following features:
 - Adding namespaces for all PHP classes following the [PSR-4](https://www.php-fig.org/psr/psr-4/) convention, as to support [autoloading through Composer](https://getcomposer.org/doc/01-basic-usage.md#autoloading)
 - Shortening of classnames (eg: from the current `PoP_Posts_Module_Processor_PostsDataloads` to `Dataloads`, after placing the class under namespace `PoP\Posts\ModuleProcessors`)
 - Using `use` statements to import fully-qualified (namespace+classname) classes at the top of the PHP file, to make the code more legible (eg: instead of repeatedly executing `\PoP\ComponentModel\Engine_Vars::getVars()`, we can first import the class with `use PoP\ComponentModel\Engine_Vars;` and then execute `Engine_Vars::getVars()`)
+- Replacing all global variables (such as `$pop_cssresourceloaderprocessor_manager`) with a corresponding service
 
 If you want to become involved, or simply want to find out more, please [contact Leo](mailto:leo@getpop.org).
 
