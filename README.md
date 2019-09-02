@@ -8,7 +8,7 @@ The core packages are:
 
 1. [Component Model](https://github.com/getpop/component-model): Implementation of the basic component model, dealing with component data (but no configuration)
 2. [Engine](https://github.com/getpop/engine): Adds services over the component model
-3. [Configuration Engine](https://github.com/getpop/configurationengine): It adds a configuration layer to the component model
+3. [Configuration for Component Model](https://github.com/getpop/component-model-configuration): It adds a configuration layer to the component model
 
 We can extend the core to implement applications, such as the following ones:
 
