@@ -13,7 +13,7 @@ The core packages are:
 We can extend the core to implement applications, such as the following ones:
 
 1. [API](https://github.com/getpop/api): Implements an API for retrieving/posting data with the PoP component model
-3. [Site Builder](https://github.com/getpop/site-builder): Build websites thorugh PoP
+3. [Site Builder](https://github.com/getpop/site-builder): Build websites through PoP
 4. [Static Site Generator](https://github.com/getpop/static-site-generator): Export a static version of the website
 
 ## Install
