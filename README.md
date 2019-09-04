@@ -26,16 +26,14 @@ Follow the instructions for the corresponding platform:
 
 ## Codebase Migration
 
-**Help needed!** 😝
+Many packages for PoP are currently being migrated to Composer. We are welcoming first-time contributors to help with the migration: This is a good way to become aquainted with PoP, and we will teach you all there is to know about its architecture.
 
-PoP's codebase is currently being migrated to Composer packages. We are welcoming contributors to help with the migration, as to push forward the release date for PoP 1.0.
-
-Currently, many PoP packages are split into 2:
+To deal with the migration, many PoP packages have been split into 2:
 
 1. The final package
 2. A temporary, "migrate" package
 
-The task is to migrate all code from the "migrate" to the final package, converting all code as required. The "migrate" package contains legacy PHP code written several years ago. The migration must introduce modern PHP techniques to the codebase, such as using Composer, dependency injection, autoloading and others. Once the code migration for each package is complete, the corresponding "migrate" package can be deleted.
+The task is to migrate all code from the "migrate" to the final package, converting all code as required. The "migrate" package contains legacy PHP code written several years ago. The migration must introduce modern PHP techniques to the codebase, such as using Composer, dependency injection, autoloading, removal of global variables, use of services and others. Once the code migration for each package is complete, the corresponding "migrate" package can be deleted.
 
 Migrating the code involves the implementation of the following features:
 
