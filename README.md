@@ -21,8 +21,11 @@ We can extend the core to implement applications, such as the following ones:
 Follow the instructions for the corresponding platform:
 
 - [PoP API for WordPress](https://github.com/leoloso/PoP-API-WP)
+- Others coming soon...
+<!--
 - PoP API for Laravel + WordPress (coming soon)
 - PoP site for WordPress (coming soon)
+-->
 
 ## Codebase Migration
 
